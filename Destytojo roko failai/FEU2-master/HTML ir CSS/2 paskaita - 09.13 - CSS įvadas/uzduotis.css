@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: bisque;
+}
+
+.heroTitle{
+  text-align: center;
+  font-size: 3rem;
+  color: green;
+}
+
+.inlineBlock{
+  display: inline-block;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.contentDiv{
+  background-color: rgb(250, 196, 129);
+}
+
+.pirmasSpan{
+  color: red;
+  text-decoration: line-through;
+}
+.antrasSpan{
+  color: blue;
+  font-weight: bold;
+}
+
+.link1{
+  color: green;
+  text-decoration: none;
+}
+
+.paveiksliukas{
+  width: auto;
+  height: 150px;
+}
+
+.dienotvarke{
+  text-align: center;
+  color: orangered;
+}
+
+table, th, td{
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 0 auto;
+}

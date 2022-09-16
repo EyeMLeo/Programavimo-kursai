@@ -1,0 +1,59 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
+
+
+
+body{
+  font-family:initial;
+}
+
+.bigIcon{
+  font-size: 50px;
+}
+.redIcon{
+  color: red;
+}
+.italicIcon{
+  font-style: italic;
+}
+
+/* mokinamės selector'ius */
+li{
+  font-size: 20px;
+}
+.klase0{
+  color: red;
+}
+#id0{
+  color: blue;
+}
+.class1.class2{
+  text-decoration: underline;
+}
+.class3 .class4{
+  text-decoration: line-through;
+}
+section.class3 *{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h3, h2{
+  text-align: center;
+}
+div p{
+  color: orange;
+}
+.class3 > p{
+  background-color: aqua;
+}
+a:link{
+  color: blue;
+}
+a:visited{
+  color: purple;
+}
+a:active{
+  color: red;
+}
+li:hover{
+  background-color: rgb(186, 249, 249);
+  color: orange;
+}
