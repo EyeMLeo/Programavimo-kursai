@@ -17,3 +17,37 @@ h1{
 .paddingTop10{
     padding-top: 5px;
 }
+.bad{
+   color:brown;
+}
+.textSize{
+   font-size: 20px;
+    text-decoration: aqua;
+}
+
+/*mokinames sewlektorius */
+li{
+    font-size: 20px;
+}
+.klase0{
+    color: red;
+}
+#id0{
+color: blue;
+}
+.class1.class2{
+    text-decoration: underline;
+}
+.class3.class4{
+    text-decoration: line-through;
+}
+
+section.class3 *{
+    font-family: trebuchet;
+}
+h1, h2, h3{
+    text-align: center;
+}
+.class3 > p{
+    background-color: aqua;
+}
