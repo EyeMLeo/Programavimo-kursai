@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Pamoka 4 Git ir Github</title>
+    
+    <link rel="icon" href="/paveiksleliai/beaver.png"><!--ikonos kodas-->
+    <link href="./styles/4pamokaMain.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#position">Position</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="position">
+            <h1>Position</h1>
+            <ul>
+                <li>Static / statine</li>
+                <li>Relative / reliatyvioji</li>
+                <li>Absolute / absoliucioji</li>
+                <li>Fixed / fiksotuoji</li>
+                <li>Sticky / lipnioji</li>
+            </ul>
+            <ul>
+                <p>
+                    Naudojant bet kuria apart statines pozicijos, gauname prieiga prie 4 nauju stiliu: top, left, right, bottom.
+                    <br> Sitie stiliai nurodo per kuri atstuma elementas turi buti atstumtas
+                    <br> z index nurodo elemento prioriteta sluoksniuose
+                </p>
+                <p>
+                    Statine pozicija / nieko ipatingo nedaro. Net nesuteikia galimybes naudoti top/left/right/bottom;
+                 / Z index</p>
+                <div class="kvadratuKonteineris">
+                    <div class="kvadratas statinis">Static1</div>
+                    <div class="kvadratas statinis">Static2</div>
+                    <div class="kvadratas statinis">Static3</div>
+                    <div class="kvadratas statinis">Static4</div>
+                </div>
+                <p>
+                    Realiatyvioji pozicija / nieko ipatingo nedaro, bet sueikia galimybe naudoti, top,left,right ir bottom
+                 / Z index
+                <br> Elementui suteikus top, left, right and bottom stiius, jisai atsitraukia per nurodyta atstuma ir nuo nurodytos krastines (savo pradines pozicijos)
+            </p>
+            </ul>
+            <p>
+                Statine pozicija / 
+            </p>
+            <div class="kvadratuKonteineris">
+                <div class="kvadratas statinis">Static1</div>
+                <div class="kvadratas statinis">Static2</div>
+                <div class="kvadratas absolute">absolute3</div>
+                <div class="kvadratas statinis">Static4</div>
+            </div>
+            <p>Absoliucioji pozicija / Elementas iseina is puslapio tekmes.</p>
+            Elementui suteikus top, left, right and bottom stiius, jisai atsitraukia per nurodyta atstuma nuoartimiausio tevinio/senelinio/prosenelinio elemento kuris turi turi kokia nors poicija apart static (jeigu neranda / atsitraukia nuo htmlo (ekrano krastu))
+            <div class="kvadratuKonteineris">
+                <div class="kvadratas statinis">Static1</div>
+                <div class="kvadratas absolute bottom30">Relative2</div>
+                <div class="kvadratas">Relative3</div>
+                <div class="kvadratas reliatyvus">Relative4</div>
+            </div>
+            <p>
+                
+                    Fiksuota pozicija / elementas iseina is puslapio tekmes ir fiksuojasi nurodytoje arba savo pozicijoje.
+                    Taip pat , jeigu nera nustatytas elemento dydis / elementas sumazeja iki minimalaus dydzio
+                
+                <div class="kvadratuKonteineris">
+                    <div class="kvadratas statinis">Static1</div>
+                    <div class="kvadratas fixed">Static2</div>
+                    <div class="kvadratas statinis">absolute3</div>
+                    <div class="kvadratas fixed right40">Static4</div>
+                </div>
+            </p>
+
+
+            <p>Sticky konteineris / Neiseina is puslapio tekmes. Ekranui krastams priartejus prie jo / jis prilimpa prie ekrano krasto per nurodyta atstuma ir juda kartu su ekranu kol nepasiekia savo tevinio elemento ribu.
+            </p>
+            <div class="kvadratuKonteineris"style="height:200px">
+                <div class="kvadratas statinis">Static1</div>
+                <div class="kvadratas statinis">Static2</div>
+                <div class="kvadratas statinis">Static3</div>
+                <div class="kvadratas sticky top20">sticky4</div>
+            </div>
+        </section>
+        <section><!--git github-->
+
+<div class="imp"><!--git github-->
+    <h1>GIT command list</h1>
+    <ul>
+        <li>
+            Cd / naudojam, kad vaiksciot tarp aplankalu
+        </li>
+        <Li>LS / list files and directories. Isvardinti failus ir direktorijas</Li>
+        <li>ctr^c / atsakia ir duoda nauja eilute</li>
+        <li> TAB / paspaudus uzbaigia fraze arba pasiulo pasirinkima</li>
+        <li>clear / nukelia visa terminale rodoma informacija i virsu </li>
+    </ul>
+</div>
+<div class="imp"><!-- GIT Command line-->
+    <h1>GIT konfiguravimo settingai</h1>
+    <ul>
+        <li>git config --global user.name "Tavo vardas" </li>
+        <li>git config --global user.email"email@email.com"</li>
+        <li>git config --global core.editor "code"</li>
+        <li>git config --global core.autocrif true (vietoje ""true" - "input" jei linus/mac</li>
+        <li>git config --global -e  atidarys ir parodys info per editoriu
+        <li>git config --help
+        </li>
+
+        
+    
+    </ul>
+</div>
+<div class="imp"> <!-- GIT Komandos-->
+<h1>
+    Git komandos
+</h1>
+<ul>
+    <li> git init / initialize git / inicilizuoja git aplankalwe / sukuria papke </li>
+    <li>git stat / </li>
+    <li>git add / stageina/prideda/paruosia prideti ir paruosti failus komitinimui </li>
+    <li>git status / pateikia informacija apie tavo failus esamoje repozitorijoje</li>
+    <li>git add. / su tasku prideda viska papkeje</li>
+    <li>git commit -m "parasomas komentaras, zinute" / sukuria kodo versija is stage'intu failu </li>
+</ul>
+<h1>Papildomos komandos</h1>
+<ul>
+<li>code . / (gali but tarpas po tasko / leisti norimoje papkeje paspaudus desini peles mygtuka ir pasirinkus gitBatch ir vesti nuoruoda ten                                                                                            </li>
+</ul>
+</div>
+        </section>
+        <!--icon-->
+        <!--css selectors-->
+        <!--flex-->
+
+
+        <div style="height:5000px"></div>
+    </main>
+</body>
+</html>

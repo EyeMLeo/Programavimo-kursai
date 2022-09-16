@@ -1,0 +1,58 @@
+.blue{
+    color: rgb(112, 170, 245);
+}
+
+.green{
+    color:rgb(0, 255, 106)
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+.underline{
+text-decoration: underline;
+
+}
+.minusas{
+
+   list-style-type:"- " 
+}
+.inline{
+    inline-size: 0;
+}
+
+.thgreen{
+    color: rgb(19, 192, 19);
+}
+
+
+.center{
+text-align: center;
+}
+
+.Bold{
+font-weight: bold;
+}
+
+.left{
+text-align: left;
+}
+
+.orange{
+color: rgb(122, 110, 0);
+}
+
+
+.red{
+color: brown;
+}
+
+.wrong{
+    text-decoration: line-through;
+}
+
+.Impact{
+font-family:Impact;
+}
