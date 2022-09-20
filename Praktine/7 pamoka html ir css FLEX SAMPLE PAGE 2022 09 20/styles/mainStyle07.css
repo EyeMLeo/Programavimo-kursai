@@ -1,0 +1,70 @@
+/* RESET*/
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    background-color: blanchedalmond;
+    height: 50px;
+}
+
+
+header,
+head,
+main,
+body {
+    margin: 0px;
+}
+
+.noMargin {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+.logo {
+    height: 40px;
+
+
+}
+
+.nav1container {}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.navLink {
+    padding: 10px 20px;
+}
+
+.mainHeader {
+    letter-spacing: 4px;
+}
+
+.mainHeader a:hover {
+    background-color: rgb(142, 142, 142);
+}
