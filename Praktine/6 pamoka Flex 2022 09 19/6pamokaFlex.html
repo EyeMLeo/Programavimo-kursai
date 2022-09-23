@@ -6,8 +6,118 @@
     <link href="./styles/6pamokaMain.css" rel="stylesheet">
 </head>
 <body>
-  <h1>
-    
-  </h1>  
+  <section>
+
+<h1>
+Display:Flex:
+Spargalke <br>
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a>
+    <br> https://flexboxfroggy.com/
+</h1>  
+<p>
+    Suteikus konteineriui flex nustatyma, jo viduje elementai issidesto vienas salia kito <br>
+    Elementai gali susispausti, kad tilptu i viena eilute sitaip ignoruodami savo paciu nustatytus dydzius<br>
+    <br> Suteikus flex konteineriui flex-direction - galime valdyti jo viduje esanciu elementu issidestymo tvarka
+    <br> Suteikus flex konteineriui flex-wrap - galime nurodyti ar ir kaip elgtis esant elementu pertekliui vienoje eiluteje arba stulpelyje.
+    <br>Suteikus flex konteineriui - justify content galime valdyti kaip elementai issidestoeiluteje ( jeigu flex direction yra row).
+    <br> Suteikus flex konteineriui align-content galime valdyti kaip elementai issidesto (tarpai tarp elementu) stulpelyje (jeigu flex direction yra row)
+    <br>
+<div class="flexContainer">
+    <div class="kvadratas">1</div>
+    <div class="kvadratas">2</div>
+    <div class="kvadratas">3</div>
+    <div class="kvadratas">4</div>
+    <div class="kvadratas">5</div>
+    <div class="kvadratas">6</div>
+    <div class="kvadratas">7</div>
+    <div class="kvadratas">8</div>
+    <div class="kvadratas">9</div>
+    <div class="kvadratas">10</div>
+    <div class="kvadratas flexPirmas">11</div>
+    <div class="kvadratas flexKetvirtas">12</div>
+</div>
+</p>
+</section>
+<section> <!--Uzdaviniai-->
+<div class="pirmasPratimas"><!--Pirmas Pratimas-->
+    <div class="pirmasKvadratas kvadratai">1</div>
+    <div class="flexInflex">
+        <div class="antrasKvadratas kvadratai">2</div>
+        <div class="flexInFlexInFlex">
+        <div class="treciasKvadratas kvadratai">3</div>
+        <div class="ketvirtasKvadratas kvadratai">4</div>
+        </div>
+    </div>
+</div><br>
+<div><!--big lex task-->
+    <div class="bigTaskContainer containerTask1">
+        <div class="uzdTest w33 h33"></div>
+        <div class="uzdTest w66 h33"></div>
+        <div class="uzdTest w66 h33"></div>
+        <div class="uzd1 w33 h33"></div>
+        <div class="uzd1 w33 h33"></div>
+        <div class="uzd1 w66 h33"></div>
+    </div>
+
+    <div class="bigTaskContainer containerTask1"><!--tvarkingesnis sprendimasz-->
+
+        <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w33"></div>
+            <div class="uzd1 w66"></div>
+        </div>
+
+        <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w66"></div>
+            <div class="uzd1 w33"></div>
+        </div>
+
+        <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w33"></div>
+             <div class="uzd1 w66"></div>
+        </div>
+    </div>
+
+    <div> <!-- detstytojo failas-->
+        <div class="bigTaskContainer containerTask1"> <!-- 1 -->
+          <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w33 "></div>
+            <div class="uzd1 w66 "></div>
+          </div>
+          <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w66 "></div>
+            <div class="uzd1 w33 "></div>
+          </div>
+          <div class="h33 containerTask1NextLevel">
+            <div class="uzd1 w33 "></div>
+            <div class="uzd1 w66 "></div>
+          </div>
+        </div>
+      </div>
+
+<div class="bigFlexTask"><!-- 2a uzduotis-->
+   <div class="bigTaskContainer containerTask1">
+    </div>
+    <div>
+        <div class="bigTaskContainer "></div>
+        <div class="taskBg uzd1 h66 w66"></div>
+    </div>
+        <div class="taskBg h33 w33"></div>
+    <div class="taskBg h33 w33"></div>
+
+    <div class="containerTask2Level1 h33">
+        <div class="taskBg h33 w33"></div>
+        <div class="taskBg h33 w33"></div>
+        <div class="taskBg h33 w33"></div>
+    </div>
+
+</div>
+
+
+
+</div>
+</section>
+
+</section>
 </body>
 </html>

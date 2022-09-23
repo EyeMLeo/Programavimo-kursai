@@ -1,0 +1,351 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@import 'reset.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* form3 */
+
+.headerContact3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.MainArea3White {
+    background-color: white;
+    height: 1000px;
+
+}
+
+
+.squareBoxMain {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 55% 45%;
+
+}
+
+.contactFormBox70 {
+    background-color: #e8edf0;
+    width: auto;
+    height: 600px;
+    padding: 50px;
+
+}
+
+.map30 {
+    width: auto;
+    height: 600px;
+    background-color: brown;
+}
+
+.contactLabelThree,
+.contactInputThree {
+    display: block;
+}
+
+.gridFormContainer3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contactFormInputBlockSubject,
+.contactFormInputBlockMessege {
+    grid-column: 1 / span 2;
+}
+
+.contactInputThree {
+    width: 100%;
+}
+
+
+
+.fakeGoogleMaps {
+    min-height: 100%;
+    object-fit: cover
+}
+
+.contactInputThreeTextArea {
+    resize: none;
+
+}
+
+.contactLabelThree {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+.contactInputThree {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.sendMessegeBtn3 {
+
+    color: white;
+    background-color: #2553b8;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.IconBoxSquare {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.NavIcons {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: #2553b8;
+    align-items: center;
+    justify-content: center;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.IconFlexLine {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextInContactUs {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form1 */
+.form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.sippingHeader {
+    display: block;
+}
+
+
+.shippingForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.countryBlock,
+.inputAddress1,
+.inputAddress2,
+.inputPhone,
+.checkBox {
+    grid-column: 1 /span 2;
+}
+
+.countryComment {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+}
+
+.continueBtn {
+    color: rgb(250, 250, 250);
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.TermsAndServices {
+    text-align: center;
+}
+
+.returnButton,
+.continueBtn {
+    align-self: center;
+}
+
+/* form2 */
+
+.formPage {
+    height: 1000px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(309deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    padding: 30px;
+}
+
+.whiteBox {
+    background-color: rgb(249, 249, 249);
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px 50px;
+    box-shadow: 0px 1px 10px rgb(47 47 47);
+    border-radius: 5px;
+}
+
+.inputBoxLine {}
+
+.form2Label,
+.form2Input {
+    display: block;
+}
+
+.form2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+.genderSuperLine {
+    grid-column: 1 / span 2;
+}
+
+.GenderBoxLine {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.submitBtn {
+    width: 100%;
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(309deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+
+.genderHeader {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+.form2Label {
+    font-weight: bold;
+    margin: 5px;
+
+
+}
+
+
+.form2Input {
+
+    width: 100%;
+    height: 70%;
+    padding-left: 10px;
+    border-radius: 6px;
+    border-color: rgb(222, 222, 222);
+
+}

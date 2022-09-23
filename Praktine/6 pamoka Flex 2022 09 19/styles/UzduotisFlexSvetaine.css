@@ -1,0 +1,174 @@
+
+head, body, header{
+    margin: 0px;
+}
+
+
+.logo{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+header{
+    height: 50px;
+    margin: 0px;
+    background-color:rgb(255, 190, 104);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mainMenu{
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .mainMenu > ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+
+  /* Link style part*/ 
+nav a{
+  font-size: 25px;
+  text-decoration: none; 
+  font-family: Impact;
+}
+/* unvisited link */
+nav a:link {
+  text-decoration: none; 
+  color: rgb(89, 41, 65);
+}
+
+/* visited link */
+nav a:visited {
+  color: rgb(89, 41, 65);
+}
+
+/* mouse over link */
+nav a:hover {
+  color: rgb(218, 118, 65);
+}
+
+/* selected link */
+nav a:active {
+  color: rgb(89, 41, 65);;
+}
+
+  .mainMenu li{
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .imgAndLogo{
+    display: flex;
+    justify-content: baseline;
+    text-align: center;
+  }
+
+  .logoText{
+    font-family: impact;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 40px;
+    margin-top: 0px;
+
+  }
+
+.flexLogo{
+  display: flex;
+  justify-content: center;
+}
+
+
+main{
+  background-color: antiquewhite;
+  height: 1000px;
+}
+
+  footer{
+    height: 50px;
+    margin: 0px;
+    background-color:rgb(255, 190, 104);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.footerMenu{
+display: flex;
+align-items: center;
+width: 30%;
+
+font-size: 25px;
+text-decoration: none; 
+font-family: Impact;
+font-size: 25px;
+text-decoration: none; 
+font-family: Impact;
+}
+
+
+.footerMenu > ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footerMenu li{
+  list-style-type: none;
+}
+
+
+.footerMenu{
+  text-decoration: none;
+}
+
+  .footerLogo{
+    display: flex;
+    height: 30px;
+
+}
+
+
+
+/*Main sekcijos*/
+
+main h1{
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#home{
+
+}
+
+#about{
+
+}
+
+#contact{
+
+}
+
+
+
+article{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid white;
+
+}
+
+.articleImg{
+  height: 100px;
+}

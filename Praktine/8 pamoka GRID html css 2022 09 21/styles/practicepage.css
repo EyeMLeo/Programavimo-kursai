@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ourTeam */
+
+.ourTeam {
+  text-align: center;
+  padding: 3% 20px;
+}
+
+.teamItem {
+  /* border: 1px solid #000; */
+  text-align: center;
+  /* max-width: 120px; */
+}
+
+.teamItem img {
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.teamItem img:hover {
+  opacity: 0.75;
+}
+
+.teamName {
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.teamPosition {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Our work */
+
+.ourWork {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  height: 100%;
+  background-color: rgb(63, 63, 63);
+  padding: 30px;
+}
+
+.workGrid {
+
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.workTextBox {
+  padding: 15px;
+  text-align: left;
+}
+
+.workImg {
+  width: 100%;
+  height: 35%;
+  object-fit: cover;
+}
+
+.workList {
+  list-style: none;
+  padding: 4px;
+}
+
+.workGrid0 {
+  color: aliceblue;
+  text-align: left;
+}
+
+
+/* Cost Grid  */
+
+
+.costGridMain {
+  background-color: rgb(228, 228, 228);
+  height: 100%;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.costGridBox {
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 0 9px 0px black;
+  opacity: 0.95;
+}
+
+
+.costGridBox:hover {
+  opacity: 1;
+}
+
+.costNames {
+  background-color: rgb(52, 52, 52);
+  padding: 30px;
+  margin: 0px;
+  color: white;
+}
+
+.costNamePro {
+  background-color: #431b6e;
+}
+
+
+
+.costAtributes {
+  color: rgb(46, 46, 46);
+}
+
+.orderButton {
+  margin: 15px;
+  color: white;
+  background-color: #a24bfe;
+  border-style: none;
+  padding: 10px;
+}
+
+.orderButton:hover {
+  color: rgb(46, 46, 46);
+  background-color: rgb(192, 159, 222);
+
+}
+
+
+.costGridBox:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 40px 5px #572988;
+
+}
+
+
+/* Popular content box */
+
+.popularPostsMain {
+  width: 30%;
+  background-color: #c5c5c5;
+}
+
+.popularMainHead {
+  background-color: rgb(46, 46, 46);
+  padding: 2px 5px 2px;
+  color: rgb(242, 242, 242);
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.popularContentBox {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+
+.popularImages {
+  grid-row: 1/ span 2;
+  padding: 5px;
+  max-width: 100%;
+
+
+}
+
+
+.popularName {
+  padding: 1px;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 14px;
+  margin: 1px;
+  vertical-align: bottom;
+  height: 100%;
+}
+
+
+
+.popularContent {
+  padding: 1px;
+  text-align: left;
+  margin: 1px;
+  height: 100%;
+  font-size: 10px;
+}
+
+.popularHR {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.popularPostsMain>p {
+  padding: 0%;
+  margin: 0%;
+}

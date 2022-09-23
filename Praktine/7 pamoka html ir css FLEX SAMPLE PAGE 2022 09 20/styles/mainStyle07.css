@@ -4,6 +4,25 @@ a {
     color: inherit
 }
 
+img {
+    max-width: 100%;
+}
+
+/*helper*/
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -12,6 +31,7 @@ body {
 header {
     background-color: blanchedalmond;
     height: 50px;
+    z-index: 10;
 }
 
 
@@ -24,18 +44,17 @@ body {
 
 .noMargin {
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 
 }
-
 
 .logo {
     height: 40px;
-
-
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
-
-.nav1container {}
 
 header {
     display: flex;
@@ -43,18 +62,15 @@ header {
     align-items: center;
 }
 
-main {
-    display: flex;
-}
+header h2 {
+    margin: 0px;
+    padding: 0px;
 
-main img {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .logo span {
     font-weight: normal;
-    font-size: 20px;
+    /*  font-size: 20px;*/
 }
 
 .navLink {
@@ -63,8 +79,119 @@ main img {
 
 .mainHeader {
     letter-spacing: 4px;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    width: 100%;*/
+    position: sticky;
+    top: 0;
+    box-shadow: 2px -4px 20px 6px black;
 }
 
 .mainHeader a:hover {
     background-color: rgb(142, 142, 142);
+}
+
+/*hero*/
+
+.hero {
+    background: url(../../../IMAGES/greemn\ Houses.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.heroTitle span {
+    font-weight: normal;
+}
+
+.heroTitle {
+    color: white;
+    font-size: 40px;
+}
+
+/*Projects*/
+
+.projects {
+    padding: 40px 30px;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* border: 1px dashed rgb(157, 5, 5); */
+}
+
+.project {
+    position: relative;
+    /* border: 1px dashed #000; */
+    flex-basis: 22%;
+    flex-grow: 1;
+}
+
+.prTitle {
+    color: white;
+    background-color: #000;
+    padding: 5px 10px;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.contactForm {
+    background-color: rgb(205, 172, 235);
+    width: 400px;
+    min-height: 500px;
+    padding: 10px 20px;
+
+
+}
+
+.contactForm2 {
+    background-color: rgb(235, 172, 172);
+    width: 400px;
+    min-height: 500px;
+    padding: 10px 20px;
+}
+
+
+
+.nameSurname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.input {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 5px;
+    margin: 30;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.contactButton {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    border: none
 }

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.contactHeader {
+    font-size: 25px;
+    color: rgb(6, 0, 89);
+    padding: 20px;
+    padding-top: 40px;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.formBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    max.width: 100%;
+    display: block;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.input:hover {
+    transition: 0.3s;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.input::placeholder {
+    color: rgb(172, 172, 172);
+}
+
+.textInput {
+    display: flex;
+    resize: vertical;
+    align-self: center;
+}
+
+.submitBtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgb(148, 168, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}

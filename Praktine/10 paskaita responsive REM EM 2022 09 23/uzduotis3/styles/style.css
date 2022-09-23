@@ -1,0 +1,99 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@import 'reset.css';
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(211, 211, 211);
+    padding: 2em;
+}
+
+.logo {
+    height: 40px;
+
+}
+
+.logoSpace {
+    display: flex;
+}
+
+.logoHeader {
+    color: rgb(77, 25, 25);
+    font-size: 1.5em;
+}
+
+
+
+.boxas {
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 1.5em;
+    box-shadow: 0 0 4px rgb(44 44 44);
+}
+
+.main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1em;
+}
+
+.headeris {
+    grid-column: span 2;
+}
+
+.Content {
+    grid-row: span 2;
+}
+
+
+.copyrightText {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.linkas {
+    padding-right: 2em;
+}
+
+.bigSide {
+    font-size: 25px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .gridContainer {
+        grid-template-columns: 1fr;
+    }
+
+
+    .headeris {
+        grid-column: span 1;
+    }
+
+
+    .headeris {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .linkas {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+
+    }
+
+
+
+}
