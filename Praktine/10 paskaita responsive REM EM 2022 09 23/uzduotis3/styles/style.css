@@ -80,10 +80,6 @@ body {
 
     .headeris {
         grid-column: span 1;
-    }
-
-
-    .headeris {
         display: flex;
         flex-flow: column;
     }
@@ -94,6 +90,9 @@ body {
 
     }
 
+    .headeris span {
+        border-bottom: 2px solid rgb(236, 236, 236);
+    }
 
 
 }

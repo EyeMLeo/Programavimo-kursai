@@ -1,0 +1,342 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@import 'reset.css';
+
+/* Orange color #ff4a52
+background main #f7fafd 
+text color 040e27
+button accent #1ec6b6
+footer color #040e27*/
+html {
+    font-size: 10px;
+    color: #040e27;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    background-color: #f7fafd;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+/* Header */
+
+.header {
+    background-color: white;
+    height: 7rem;
+    min.width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    background-color: #ff4a52;
+    color: white;
+}
+
+.logo {
+    color: #ff4a52;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    padding-left: 2rem;
+
+}
+
+.PlaneLogo {
+    font-size: 3rem;
+}
+
+
+
+/* --------------MAIN */
+
+/* HERO */
+
+.heroBox {
+    width: 100%;
+    height: 40rem;
+}
+
+.HeroImg {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+/* Popular Places */
+
+.popularPlaces {
+    text-align: center;
+}
+
+.popularPlacesGrid {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10rem auto;
+
+
+
+}
+
+
+.popularPlacesCard {
+    position: relative;
+    width: 30rem;
+    height: 35rem;
+    border-radius: 0.5rem;
+    border: solid black 0px;
+    background-color: white;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 1em auto;
+}
+
+
+.popularPlacesImg {
+    min-width: 100%;
+    min-height: 20rem;
+    max-height: 20rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+
+
+.fa-star,
+.fa-star-half-o {
+    color: #fdae5c;
+}
+
+/* .popularPlacesCard>h2,
+.popularPlacesCard>p,
+.popularPlacesStats {
+    margin-left: 1rem;
+    margin-right: 1rem;
+ } */
+
+.popularPlacesStatsFull {
+    padding: 2rem;
+}
+
+
+.popularPlacesStats {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.PopularCostBtn {
+    position: absolute;
+    border: none;
+    border-radius: 30%;
+    margin: 1.5em;
+    padding: 0.5em 1em;
+    background-color: #1ec6b6;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+.popularPlacesCard:hover>.PopularCostBtn {
+
+    background-color: #ff4a52;
+    transition-duration: 00.5s;
+}
+
+
+.popularPlacesCard h2 {
+    transition-duration: 1s;
+}
+
+
+
+.popularPlacesCard:hover h2 {
+
+    color: #ff4a52;
+    transition-duration: 00.5s;
+
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: #040e27;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5em;
+
+}
+
+.footerLogo {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.PlaneLogo {
+    color: #ff4a52;
+
+}
+
+.footer p,
+.footer h2 {
+    color: #aab1b7;
+}
+
+
+
+
+.footerIconsSmall {
+    color: #f7fafd;
+}
+
+.footerCompany {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popularCountriesFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footerInstagramPhotoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding-left: 0;
+    padding-right: 100%
+}
+
+.InstagramImg {
+    max-width: 5rem;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 0.5em;
+
+}
+
+.copyrightFooter {
+    grid-column: span 4;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 350x200 */
+
+
+@media screen and (max-width: 1000px) {
+
+    .popularPlacesCard {
+
+        width: 23rem;
+        height: 30rem;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .popularPlacesGrid {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+
+
+    }
+
+
+
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .copyrightFooter {
+        grid-column: span 2;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+    .popularPlacesGrid {
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+
+    }
+
+
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    .copyrightFooter {
+        grid-column: span 1;
+    }
+
+
+
+
+
+
+
+
+
+
+}
