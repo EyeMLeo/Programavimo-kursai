@@ -4,4 +4,19 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+
+
+aside {
+    max-height: 300px;
+    background-color: rgb(122, 98, 145);
+    border: solid black 2px;
+    overflow: auto
 }
