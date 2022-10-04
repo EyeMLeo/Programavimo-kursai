@@ -1,0 +1,57 @@
+@use 'reset';
+@use 'vars' as v;
+
+$main-color-3: blue;
+
+body {
+    font-family: v.$main-font;
+
+    h1 {
+        color: v.$secondary-color;
+    }
+
+    h2 {
+        color: v.$fourth-color;
+    }
+}
+
+
+.boxes {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+
+    min-height: 480px;
+    min-width: 800px;
+    border: 2px;
+    color: ;
+
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: $fourth-color;
+        border: 3px solid blue;
+    }
+
+
+
+
+}
+
+
+.dezes {
+    @extend .boxes;
+    border-color: yellow;
+    background-color: black;
+}
+
+@mixin myFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}

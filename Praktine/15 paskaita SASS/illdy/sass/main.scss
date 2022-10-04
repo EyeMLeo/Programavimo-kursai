@@ -1,0 +1,188 @@
+@use './reset';
+@use './vars';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+html{
+    --primary-text-color: #545454;
+    --secondary-text-color: #f1d204;
+    --third-text-color: #6a4d8a;
+    --fourth-text-color: #f9c089;
+    --fith-text-color: #8c9594;
+    --main-background-color: #ffffff;
+    --secondary-background-color: #292825;
+    --reversed-text-color: #f7f7f7;
+
+    }
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.late-news {
+    text-align: center;
+    background-color: var(--secondary-background-color);
+   
+    .news__subtitle{
+    color:var(--fith-text-color);
+}
+.news__title{
+
+color: var(--reversed-text-color);
+}
+
+.single-post{
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+    text-align: left;
+
+
+    &__image{
+    min-width: 100%;
+    }
+
+    &__description{
+    padding: 2em;
+
+    }
+
+    &__link{
+    color: var(--secondary-text-color);
+
+
+    &::before{
+        content: '\f0a9';
+        font-family: 'FontAwesome';
+        padding-right: 0.5em;
+    }
+    }
+
+
+}
+
+
+}
+
+
+
+
+
+
+.btn {
+    display: grid;
+    place-items: center;
+    background-color:var(--secondary-text-color);
+    border: none;
+    border-radius: 0.3em;
+    color:var(--primary-text-color);
+    padding: 1em 2em;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+    &:hover{
+    background-color: var(--third-text-color);
+    color: var(--reversed-text-color);
+    }
+
+    &::before{
+    content: '\f0a9';
+    font-family: 'FontAwesome';
+    padding-right: 0.3em;
+
+
+    }
+
+}
+
+
+
+.ourNumbers{
+
+display: flex;
+justify-content: center;
+text-align: center;
+color: var(--reversed-text-color);
+background-image: url(../img/background.jpg);
+background-attachment: fixed;
+margin-bottom: 1000px;
+padding: 3em;
+
+h2{
+    font-size: 5rem;
+    padding: 0.05em;
+    margin: 0;
+}
+
+p{
+    font-weight: 700;
+}
+
+
+&__Box{
+
+   width: 100%; 
+
+}
+
+
+&__verticalDivide{
+
+min-height: 100%;
+width: 2px;
+background-color: var(--main-background-color);
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+  
+
+    .news-posts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+
+
+
+
+
+
+
+
+
+}
+    

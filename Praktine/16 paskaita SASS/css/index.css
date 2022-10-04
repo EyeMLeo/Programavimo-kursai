@@ -1,0 +1,17 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap");
+@import 'reset.css';
+html html {
+  --primary-text-color: #545454;
+  --secondary-text-color: #f1d204;
+  --third-text-color: #6a4d8a;
+  --fourth-text-color: #f9c089;
+  --fith-text-color: #8c9594;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #292825;
+  --reversed-text-color: #f7f7f7;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}/*# sourceMappingURL=index.css.map */

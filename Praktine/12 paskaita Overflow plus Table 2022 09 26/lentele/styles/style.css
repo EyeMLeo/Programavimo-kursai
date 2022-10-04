@@ -142,35 +142,35 @@ li{
 }
 
 /* THIS IS MAIN HOVER OBJECT */
-.hasSubMenu:hover{
-background-color: rgb(0, 81, 255);
-
-}
 
 
 .submenu{
     position: absolute;
     background-color: #eaeaea;
-    top: 140%;
-    padding:10px 15px;
+    top: 130%;
+    padding:0px;
     margin: 0;
     left: -10%;
     z-index: 1000;
     color: rgb(30, 30, 30);
-    opacity: 0;
+    opacity: 0.5;
     transition-duration: 0.6s;
+    transform: scaleY(0);
+    transform-origin: top;
     visibility:hidden;
 }
 
 .hasSubMenu:hover .submenu{
     visibility: visible;
     opacity: 1;
+    transform: scaleY(1);
 
 
 }
 
 .submenu li:hover{
-    background-color: #808080;
+    background-color: #cdcdcd;
+    margin: 0;
 
 }
 
@@ -185,5 +185,20 @@ footer{
     content: '\f078';
     font-family: 'FontAwesome';
     font-size: small;
-padding-left: 0.5em;
+    padding-left: 0.5em;
+}
+
+
+.navBtns li:hover{
+
+    color: rgb(105, 105, 105);
+
+
+}
+.submenu li:hover{
+
+
+    color: black;
+
+
 }

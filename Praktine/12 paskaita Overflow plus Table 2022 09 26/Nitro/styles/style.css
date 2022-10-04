@@ -1,0 +1,259 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@import 'reset.css';
+
+html {
+    font-size: 10px;
+
+
+    --mainColor: #ffffff;
+    --secondaryColor: #007bff;
+    --mainTextColor: #000020;
+    --secondarytextColor: #808080;
+}
+
+
+
+.textTest {
+    width: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.Btn {
+    background-color: var(--secondaryColor);
+    color: var(--mainColor);
+    border: none;
+    border-radius: 2em;
+    padding: 0.8em 2em;
+}
+
+.Btn:hover {
+    background-color: var(--mainTextColor);
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+    z-index: 10;
+}
+
+.logoText {
+    color: var(--secondaryColor);
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    margin: 0%;
+}
+
+.logoText p {
+    margin: 0;
+}
+
+
+
+.logoText span {
+    color: var(--secondaryColor);
+
+}
+
+
+.fa-bars {
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+/* Hero */
+.hero {
+    height: 100vh;
+    border-color: #808080;
+    display: grid;
+    place-items: center;
+    background: url(../../../../IMAGES/teamWorking.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+.hero--container {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: var(--mainColor);
+    z-index: 8;
+
+}
+
+.addOverlay::after {
+    position: absolute;
+    content: 'Test';
+    background-color: #00002091;
+    ;
+    color: #007bff;
+    font-size: 30px;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Our Team */
+.ourTeamDescription {
+    text-align: center;
+}
+
+
+
+.SectionRules {
+    padding: 2em;
+
+}
+
+
+.SectionRules p,
+.SectionRules h2 {
+    margin-left: 3rem;
+
+}
+
+.SectionRules h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.SectionRules p {
+    font-size: 2em;
+}
+
+.ourTeamDescription h2 {
+    color: var(--secondaryColor);
+    font-size: 3.5rem;
+
+}
+
+.ourTamImages {
+    min-width: 100%;
+
+
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #333333;
+    color: var(--secondarytextColor);
+    padding: 2rem;
+}
+
+.footer h2 {
+    color: #d8d8d8
+}
+
+.footer p,
+.footer a {
+    font-size: 1.5rem;
+
+}
+
+.footerIcn {
+    padding-left: 1em;
+    font-size: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.copyrightText {
+
+    text-align: center;
+}
+
+.copyrightText hr {
+    width: 100%;
+    border: none;
+    color: red;
+    background-color: #ffffff;
+    height: 1px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .copyrightText {
+
+        display: inline;
+    }
+
+    .ourTeamContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px
+    }
+
+    .copyrightText {
+        display: grid;
+        grid-column: span 2;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+
+    .ourTeamContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px
+    }
+
+    .copyrightText {
+
+        display: grid;
+        grid-column: span 4;
+    }
+
+
+
+
+
+
+
+}
